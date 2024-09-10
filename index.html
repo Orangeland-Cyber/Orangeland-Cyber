@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yatra</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./images/Designer.png" type="image/x-icon" />
+</head>
+<body>
+    <h1>
+        Welcome to Yatra
+        <br />
+        <small>Happy Journy.....</small>
+    </h1>
+    
+    <img src="./images/Bus_Image.webp" alt="Indian Bus Image" width="900" height="auto" />
+    <form >
+        <div>
+            Check your
+            <label for="vehicle">Vehicle</label>
+            <select name="vehicle" id="vehicle">
+                <option value="bus">Bus</option>
+                <option value="train">Train</option>
+                <option value="plane">Aeroplane</option>
+            </select>
+            info here.
+         </div>
+        </form>
+        <form>
+            <label for="station">Enter your Station</label>
+            <input type="text" name="station" id="station" />
+            <br />
+            <label for="destination">Enter your Destination</label>
+            <input type="text" name="destination" id="destination" />
+            <br />
+            <input type="submit" value="submit" />
+        </form>
+</body>
+</html>
